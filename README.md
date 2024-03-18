@@ -1,9 +1,11 @@
 # User Login
 
 ### Pre-requisite 
+```bash
 Install python 3.10
 
 Install pip
+```
 
 ### Run the following commands
 #### Install `virtualenv` library  for creating virtual environment
@@ -26,17 +28,23 @@ pip install -r requirements.txt
 ```
 
 #### Start the fast api server on port 8001
+```bash
 uvicorn fastapi_app:app --reload --port=8001
+```
 
 #### Start web application on 8001
+```bash
 On the browser:
 http://127.0.0.1:8001/docs#/default/update_item_items__item_id__put
+```
 
 #### Follow the following steps
 please scroll to GET /list_users
+```bash
 user_input : user1
 password_input : password1
 
 Json Output: {
   "message": "User is authenticated. Welcome user: user1"
   }
+```
