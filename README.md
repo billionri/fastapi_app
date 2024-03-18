@@ -39,8 +39,8 @@ http://127.0.0.1:8001/docs#/default/update_item_items__item_id__put
 ```
 
 #### Follow the following steps
-please scroll to GET /list_users
 ```bash
+please scroll to GET /list_users
 user_input : user1
 password_input : password1
 
